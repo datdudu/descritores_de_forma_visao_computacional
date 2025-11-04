@@ -5,3 +5,4 @@ Realização da tarefa de descritores de forma da disciplina de Visão computaci
 - Entrar no venv
 
 venv\Scripts\activate
+cofnia
