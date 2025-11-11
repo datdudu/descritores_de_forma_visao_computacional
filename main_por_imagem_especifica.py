@@ -24,7 +24,7 @@ def analisar_imagem_detalhada(img_path):
     img_gray = cv2.imread(str(img_path), cv2.IMREAD_GRAYSCALE)
     
     if img_gray is None:
-        print("❌ Erro ao carregar a imagem!")
+        print(" Erro ao carregar a imagem!")
         return
     
     print(f"✓ Imagem carregada com sucesso!")
@@ -53,7 +53,7 @@ def analisar_imagem_detalhada(img_path):
     print(f"✓ Contornos encontrados: {len(contours)}")
     
     if len(contours) == 0:
-        print("❌ Nenhum contorno encontrado!")
+        print(" Nenhum contorno encontrado!")
         return
     
     # Filtrar contornos
